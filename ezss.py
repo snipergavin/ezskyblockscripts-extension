@@ -11,6 +11,8 @@ except:
     os.system("pip install requests")
     os.system("pip install pyautogui")
     os.system("pip install pynput")
+    os.system("pip install opencv-python")
+    os.system("pip install pillow")
     python = sys.executable
     os.execl(python, python, * sys.argv)
 
