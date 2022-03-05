@@ -17,5 +17,19 @@
 - ```Open command prompt```
 - ```cd into the folder```
 - ```python ezss.py```
-# need help?
-- Full installation tutorial on my [youtube channel](https://www.youtube.com/channel/UChCFnFywy9wPQBK833XbOrA)
+# Trouble shooting
+## Minecraft window
+- Make sure you have minecraft open window-mode and the minecraft window is focused.
+
+### ❌Wrong:
+
+<img src="https://images-ext-1.discordapp.net/external/G9XoQIox9UiAmcoNVuguNp6ysKgLvjRdcgXAdn5yy6s/https/taunahi-user-images.s3.us-east-2.amazonaws.com/discord-integration/1584-1646516966648.jpg" width="500px">
+
+### ✅Correct:
+
+<img src="https://cdn.discordapp.com/attachments/847466666689560637/949786338813689856/unknown.png" width="500px">
+
+## Errors
+
+- If something isnt working, for example it doesnt click the buttons, 
+always **look in the console**. It will most likely tell you an error. **Search that error up in your browser** and view the solutions for it. If none of them work, you can dm me the error on discord: **Lodi#0002**
