@@ -41,7 +41,7 @@ config= {
     "Main": {
         "Prefix": ".",
         "Discord Token": "token here",
-        "Script Start Key": "key here",
+        "ezss Macro Start Key": "key here",
     }
 }
 
@@ -73,18 +73,18 @@ with open("config.json") as f:
     config = json.load(f)
     prefix=config["Main"]["Prefix"]
     token=config["Main"]["Discord Token"]
-    button=config["Main"]["Script Start Key"]
+    button=config["Main"]["ezss Macro Start Key"]
 
 if token=="token here" or "":
     print("Please enter discord token in config.json.")
     time.sleep(3)
     os._exit(0)
 if button=="key here" or "":
-    print("Please enter key in config.json.")
+    print("Please enter the key you start your macro with in config.json. (ezss Macro Start Key)")
     time.sleep(3)
     os._exit(0)
 if len(button)!=1:
-    print("Your start key cant be correct! Please double check your config.json.")
+    print("Your macro key cant be correct! Please double check your config.json.")
     time.sleep(3)
     os._exit(0)
 r=requests.get('https://discord.com/api/v9/users/@me', headers={'authorization': token, "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9001 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36"})
@@ -114,7 +114,7 @@ current_farming="nothing"
 async def on_connect():
     os.system("cls")
     print("Discord connected to: "+bot.user.name+"#"+bot.user.discriminator)
-    print("Script is ready")
+    print(f"Script is ready ('{prefix}help' for info)")
 
 @bot.command()
 async def stop(et):
@@ -206,7 +206,7 @@ async def screenshot(et):
 @bot.command()
 async def shutdown(et, cooldown: int=0):
     await et.message.delete()
-    await et.send(f"```Shutting down pc in {cooldown} seconds!")
+    await et.send(f"```Shutting down pc in {cooldown} seconds!```")
     os.system(f"shutdown -s -t {cooldown}")
 
 @bot.command(aliases=["reboot", "reload"])
