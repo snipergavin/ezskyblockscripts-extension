@@ -32,4 +32,4 @@
 ## Errors
 
 - If something isnt working, for example it doesnt click the buttons, 
-always **look in the console**. It will most likely tell you an error. **Search that error up in your browser** and view the solutions for it. If none of them work, you can dm me the error on discord: **Lodi#0002**
+always **look in the console**. It will most likely tell you an error. **Search that error up in your browser** and view the solutions for it. If none of them work, you can dm me the error on discord: **Lodi#2583**
