@@ -3,7 +3,7 @@
 
 ## tutorial/showcase:
 
-[Youtube Showcase here](https://youtu.be/1YDW86gds2s)
+[**Youtube Video Showcase Here**](https://youtu.be/1YDW86gds2s)
 # Features:
 - Automatically focus minecraft
 - Automatically press buttons
@@ -12,15 +12,15 @@
 - Remote monitoring features
 - Light speed
 
-<img src="https://cdn.discordapp.com/attachments/847466666689560637/948614960907452456/unknown.png" width="400px">
+<img src="https://cdn.discordapp.com/attachments/952538084942176259/961346374413217872/unknown.png?size=4096" width="500px">
 
 # Setup
-- ```Install the latest release``` [**Download**](https://github.com/Lodisus/ezskyblockscripts-extension/releases/download/ezss/ezss-extension.zip)
+- ```Install the latest release``` [**here**](https://github.com/Lodisus/ezskyblockscripts-extension/releases/download/ezss/ezss-extension.zip)
 - ```Enter your discord token in the config.json```
-Tutorial on how to get your discord token: https://youtu.be/YEgFvgg7ZPI
-- ```Enter the minecraft script ezss key (the key you start the script ingame with)```
-- ```Do (prefix)help in a preferred private discord```
-- ```You should be set!```
+[**how to get your discord token tutorial**](https://youtu.be/YEgFvgg7ZPI)
+- ```Enter the minecraft script ezss key (the key you start the script in game with)```
+- ```Do (prefix)help in a preferably private discord```
+- ```Done, enjoy!```
 
 # Python Setup
 - ```Install python```
