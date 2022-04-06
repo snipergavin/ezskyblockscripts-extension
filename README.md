@@ -1,25 +1,47 @@
-# [ezskyblockscripts extension](https://www.taunahi.net)
+# [ezskyblockscripts extension 2.0](https://www.taunahi.net)
 <img src="https://cdn.discordapp.com/attachments/888821477422534677/900719627015958558/ezskyblockscripts.png" width="500px">
 
 ### tutorial/showcase:
 
-[Youtube link here](https://youtu.be/U0ihGUwjleY)
+[Youtube Showcase here](https://youtu.be/1YDW86gds2s)
 # Features:
-- Automaticly press buttons
+- Automatically focus minecraft
+- Automatically press buttons
 - Advanced image recognition
 - Remote access control features
+- Remote monitoring features
+- Light speed
 
 <img src="https://cdn.discordapp.com/attachments/847466666689560637/948614960907452456/unknown.png" width="400px">
 
 # Setup
+- ```Install the release```
+- ```Enter your discord token in the config.json```
+- Tutorial on how to get your discord token: https://youtu.be/YEgFvgg7ZPI
+```Enter the minecraft script ezss key (the key you start the script ingame with)```
+```Do (prefix)help in a preferred private discord```
+```You should be set!```
+
+# Python Setup
 - ```Install python```
 - ```Install this repo```
 - ```Open command prompt```
 - ```cd into the folder```
 - ```python ezss.py```
+
+# Changelog 2.0:
+- Fixed bugs
+- Improved performance drastically (no delay)
+- added auto minecraft focus
+- added auto console hide
+- added consoleon command
+- added quit command
+- improved logging
+- compiled to exe for easy setup
+
 # Trouble shooting
 ## Minecraft window
-- Make sure you have minecraft open window-mode and the minecraft window is focused.
+- Make sure your minecraft window is **NOT** in fullscreen.
 
 ### ❌Wrong:
 
@@ -31,5 +53,4 @@
 
 ## Errors
 
-- If something isnt working, for example it doesnt click the buttons, 
-always **look in the console**. It will most likely tell you an error. **Search that error up in your browser** and view the solutions for it. If none of them work, you can dm me the error on discord: **Lodi#2583**
+- If you experience issues dm **Lodi#2583**, otherwise the compiled version should always work!
