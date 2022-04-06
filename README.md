@@ -1,7 +1,7 @@
 # [ezskyblockscripts extension 2.0](https://www.taunahi.net)
 <img src="https://cdn.discordapp.com/attachments/888821477422534677/900719627015958558/ezskyblockscripts.png" width="500px">
 
-### tutorial/showcase:
+## tutorial/showcase:
 
 [Youtube Showcase here](https://youtu.be/1YDW86gds2s)
 # Features:
@@ -15,12 +15,12 @@
 <img src="https://cdn.discordapp.com/attachments/847466666689560637/948614960907452456/unknown.png" width="400px">
 
 # Setup
-- ```Install the release```
+- ```Install the latest release``` [**Download**](https://github.com/Lodisus/ezskyblockscripts-extension/releases/download/ezss/ezss-extension.zip)
 - ```Enter your discord token in the config.json```
-- Tutorial on how to get your discord token: https://youtu.be/YEgFvgg7ZPI
-```Enter the minecraft script ezss key (the key you start the script ingame with)```
-```Do (prefix)help in a preferred private discord```
-```You should be set!```
+Tutorial on how to get your discord token: https://youtu.be/YEgFvgg7ZPI
+- ```Enter the minecraft script ezss key (the key you start the script ingame with)```
+- ```Do (prefix)help in a preferred private discord```
+- ```You should be set!```
 
 # Python Setup
 - ```Install python```
