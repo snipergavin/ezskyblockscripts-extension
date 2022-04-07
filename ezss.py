@@ -20,6 +20,7 @@ except:
     os.system("pip install mss")
     os.system("pip install pynput")
     os.system("pip install win32gui")
+    os.system("pip install pip install pywin32")
     os.system("pip install opencv-python")
     os.system("pip install pillow")
     os.system("pip install asyncio")
