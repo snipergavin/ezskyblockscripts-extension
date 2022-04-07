@@ -40,7 +40,7 @@
 - compiled to exe for easy setup
 
 # Trouble shooting
-- Try restarting your pc
+- Try restarting your pc, you might have programs running that block the extension from working, rebooting the pc is a good solution to try
 - Run as admininstrator
 
 <img src="https://cdn.discordapp.com/attachments/952538084942176259/961745501919789136/unknown.png?size=4096" width="500px">
