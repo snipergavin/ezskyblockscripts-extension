@@ -36,7 +36,7 @@ def con():
 
 def coff():
     try:win32gui.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), win32con.SW_HIDE)
-    except:print(f"Error33: {E}") 
+    except Exception as E:print(f"Error33: {E}") 
 
 def download_file(url: str, dest_folder: str):
     if not os.path.exists(dest_folder):
