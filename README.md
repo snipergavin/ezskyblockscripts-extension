@@ -40,14 +40,18 @@
 - compiled to exe for easy setup
 
 # Trouble shooting
-## Minecraft window
+- Try restarting your pc
+- Run as admininstrator
+
+<img src="https://cdn.discordapp.com/attachments/952538084942176259/961745501919789136/unknown.png?size=4096" width="500px">
+
 - Make sure your minecraft window is **NOT** in fullscreen.
 
-### ❌Wrong:
+#### ❌Wrong:
 
 <img src="https://images-ext-1.discordapp.net/external/G9XoQIox9UiAmcoNVuguNp6ysKgLvjRdcgXAdn5yy6s/https/taunahi-user-images.s3.us-east-2.amazonaws.com/discord-integration/1584-1646516966648.jpg" width="500px">
 
-### ✅Correct:
+#### ✅Correct:
 
 <img src="https://cdn.discordapp.com/attachments/847466666689560637/949786338813689856/unknown.png" width="500px">
 
