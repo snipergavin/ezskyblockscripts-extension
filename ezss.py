@@ -31,11 +31,11 @@ ctypes.windll.kernel32.SetConsoleTitleW(f"ezSkyblockScripts Extension")
 
 def con():
     try:win32gui.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), win32con.SW_SHOW)
-    except:pass
+    except Exception as E:print(f"Error32: {E}") 
 
 def coff():
     try:win32gui.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), win32con.SW_HIDE)
-    except:pass
+    except:print(f"Error33: {E}") 
 
 def download_file(url: str, dest_folder: str):
     if not os.path.exists(dest_folder):
@@ -60,8 +60,9 @@ def focus_mc():
         mc=pgw.getWindowsWithTitle("Minecraft")[0]
         mc.maximize()
         mc.activate()
-    except:
+    except Exception as E:
         print("Couldnt find your minecraft window! Please make sure to launch minecraft.")
+        print(f"Error31: {E}") 
 
 config= {
     "Main": {
@@ -161,8 +162,9 @@ async def stop(et):
             mc=pgw.getWindowsWithTitle("Minecraft")[0]
             mc.minimize()
         
-        except:
+        except Exception as E:
             print("Couldnt find your minecraft window! Please make sure to launch minecraft.")
+            print(f"Error30: {E}") 
     else:
         await et.send("```You cant stop farming nothing!```")
 
