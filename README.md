@@ -1,4 +1,4 @@
-# [ezskyblockscripts extension 2.0](https://www.taunahi.net)
+# [ezskyblockscripts extension 2.1](https://www.taunahi.net)
 <img src="https://cdn.discordapp.com/attachments/888821477422534677/900719627015958558/ezskyblockscripts.png" width="500px">
 
 ## tutorial/showcase:
