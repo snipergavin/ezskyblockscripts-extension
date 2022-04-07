@@ -29,7 +29,7 @@
 - ```cd into the folder```
 - ```python ezss.py```
 
-# Changelog 2.0:
+# Changelog 2.1:
 - Fixed bugs
 - Improved performance drastically (no delay)
 - added auto minecraft focus
