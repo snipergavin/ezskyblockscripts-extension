@@ -15,7 +15,7 @@
 <img src="https://cdn.discordapp.com/attachments/952538084942176259/961346374413217872/unknown.png?size=4096" width="500px">
 
 # Setup
-- ```Install the latest release``` [**here**](https://github.com/Lodisus/ezskyblockscripts-extension/releases/download/ezss/ezss-extension.zip)
+- ```Install the latest release``` [**here**](https://github.com/Lodisus/ezskyblockscripts-extension/releases/download/ezss1/ezss-extension.zip)
 - ```Enter your discord token in the config.json```
 [**how to get your discord token tutorial**](https://youtu.be/YEgFvgg7ZPI)
 - ```Enter the minecraft script ezss key (the key you start the script in game with)```
@@ -54,7 +54,3 @@
 #### ✅Correct:
 
 <img src="https://cdn.discordapp.com/attachments/847466666689560637/949786338813689856/unknown.png" width="500px">
-
-## Errors
-
-- If you experience issues dm **Lodi#2583**, otherwise the compiled version should always work!
